@@ -26,7 +26,7 @@ export function Counter () {
         >
           Increment
         </button>
-        <span>{count}</span>
+        <span style={{ marginLeft: '20px', marginRight: '20px' }}>{count}</span>
         <button
           aria-label='Decrement value'
           onClick={() => dispatch(decrement())}
